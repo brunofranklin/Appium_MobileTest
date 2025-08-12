@@ -1,0 +1,24 @@
+{
+  "name": "appium-js-booking-example",
+  "version": "1.0.0",
+  "description": "Appium mobile UI test automation example",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha tests/*.js"
+  },
+  "keywords": [
+    "appium",
+    "javascript",
+    "webdriver",
+    "android"
+  ], 
+  "author": "Bruno Franklin",
+  "license": "",
+  "dependencies": {
+    "appium": "^1.22.3",
+    "chai": "^5.2.1",
+    "mocha": "^11.7.1",
+    "webdriverio": "^9.19.0"
+  }
+}
